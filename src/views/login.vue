@@ -37,6 +37,8 @@
       <span v-html="$store.state.settings.footerTxt" />
       <span> ⋅ </span>
       <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">{{ $store.state.settings.caseNumber }}</a>
+      <span> ⋅ </span>
+      <a :href="$store.state.settings.templateUrl" target="_blank">{{ $store.state.settings.template }}</a>
     </div>
   </div>
 </template>

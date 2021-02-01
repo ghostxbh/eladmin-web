@@ -46,5 +46,10 @@ module.exports = {
   /**
    * 备案号
    */
-  caseNumber: '京ICP备20004079号'
+  caseNumber: '京ICP备20004079号',
+  /**
+   * 模版
+   */
+  template: '系统模版: eladmin',
+  templateUrl: 'https://github.com/elunez/eladmin'
 }
